@@ -1,0 +1,98 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    list-style: none;
+    box-sizing:border-box ;
+    /* isso serve para dar reset na página para nós podermos manipular os próprios espaçamentos   */
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#menu ul{
+    background:#FFA500	;
+    height: 80%;
+    width: 100%;
+    text-align: center;
+}
+
+#menu ul li{
+    display: inline;
+}
+
+#menu ul li a{
+    padding: 15px 10px;
+    display: inline-block;
+    color: #7B68EE;
+}
+#menu ul li a:hover{
+    color: black;
+/* :hover = mostra o que esta sendo passado o mouse em cima    */
+}
+
+.container1{
+    width: 100%;
+    background: #e6e6e6;
+    margin: 0px auto;
+    padding: 75px;
+    
+}
+
+.container1 h1{
+text-align: center;
+font: 30px;
+font-family: arial, sans-serif;
+
+}
+
+.container2{
+    width: 99%;
+    background: #0000cd;
+    margin: 5px auto;
+    padding: 300px;
+    border-radius:15px ;
+    opacity: 0,5;
+
+}
+
+.container2 h1{
+    text-align: center;
+    font: 30px;
+    font-family: arial, sans-serif;
+
+}
+
+.container2 ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.container2 ul li{
+    list-style: none;
+    float: left;
+    width: 20%;
+    height: 200px;
+    background: #99ffcc;
+    margin: 40px 40px 0px 55px;
+}
+
+
+
+.container3{
+    width: 99%;
+    background: #b3ffb3;
+    margin: 5px auto;
+    padding: 300px;
+
+}
+
+.container4{
+    width: 99%;
+    background: # ffff99;
+    margin: 5px auto;
+    padding: 300px;
+
+}
