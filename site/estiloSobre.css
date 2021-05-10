@@ -1,0 +1,93 @@
+*{
+    margin: 0; /*resete configuração*/
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-color: #eee;
+}
+
+div{
+    display: inline-block;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */
+    width: 600px;
+    height: 200px;
+    display: inline-block;
+    margin: 75px;
+}
+
+.conteudo{
+    display: table;
+    display: inline-block;
+}
+
+.imagem{
+    display: table-cell;
+    float: left;
+    width: 255px;
+}
+
+.texto {
+    display: table-cell;
+    float: left;
+}
+
+#menu ul{
+    background:#FFA500	;
+    text-align: center;
+    font-family: ;
+}
+
+#menu ul li{
+    display: inline;
+}
+
+#menu ul li a{
+    padding: 15px 10px;
+    display: inline-block;
+    color: #0000CD;
+}
+#menu ul li a:hover{
+    color: black;
+    /*:hover = mostra o que esta sendo passado o mouse em cima    */
+}
+
+header h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:1550px;
+    height: 50px;
+    margin:auto;
+    background-color:#eee;
+    font-family: WhitmanDisplayCond,serif;
+    color:black;
+}
+
+#imagemFundo{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+#fundo{
+    width: 100%;
+    height: 100%;
+}
+
+#fundo img{
+    width: 100%;
+    position: absolute;
+}
